@@ -1,0 +1,27 @@
+@import url("./header.css");
+@import url("./service.css");
+@import url("./serviceTwo.css");
+@import url("./formContact.css");
+@import url("./footer.css");
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.App.open{
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+}
